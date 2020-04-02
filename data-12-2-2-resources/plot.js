@@ -58,10 +58,10 @@ Plotly.newPlot('bar-plot', data, layout);
 /*
  * 1. Sort the cities in descending order of population size.
  */
-/*
-var newSortedCities = cityGrowths.sort(popSize => popSize.population);
-console.log(sortedCities);
-*/
+
+// var newSortedCities = cityGrowths.sort(popSize => popSize.population);
+// console.log(sortedCities);
+
 var newSortedCities = cityGrowths
   .sort((a, b) => a.population - b.population)
   .reverse();
